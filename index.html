@@ -1,125 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AL LUMA Travel & Tourism | Muscat Oman - Visa & Flights</title>
-    <meta name="description" content="Trusted travel agency in Muscat Oman. Flight booking, visa services, tourism packages. Call +968 9733 3496">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {extend: {
-                colors: {
-                    'al-blue': '#1E40AF','al-teal': '#0D9488','al-green': '#059669',
-                    'al-bg': '#F8FAFC'
-                },
-                fontFamily: {'poppins': ['Poppins', 'sans-serif'],'noto': ['"Noto Sans Arabic"']}
-            }}
-        }
-    </script>
+    <title>Alluma Travel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-al-bg font-poppins text-gray-800">
-
-<!-- MOBILE CTA -->
-<div class="fixed bottom-0 left-0 right-0 bg-al-blue text-white p-4 md:hidden z-50 flex justify-around shadow-2xl">
-    <a href="tel:+96897333496" class="flex flex-col items-center"><i class="fas fa-phone text-xl"></i><span class="text-xs">CALL</span></a>
-    <a href="https://wa.me/96897333496" class="flex flex-col items-center"><i class="fab fa-whatsapp text-xl text-al-green"></i><span class="text-xs">WA</span></a>
-</div>
-
-<!-- HEADER -->
-<header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur z-40 shadow-lg">
-    <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
-        <div class="flex items-center space-x-2">
-            <div class="w-10 h-10 bg-gradient-to-r from-al-blue to-al-teal rounded-xl flex items-center justify-center">
-                <i class="fas fa-plane text-white"></i>
-            </div>
-            <div class="font-bold text-xl text-al-blue">AL LUMA</div>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Alluma Travel</h1>
+            <p>Your journey begins here.</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
         </div>
-        <div class="flex items-center space-x-3">
-            <a href="tel:+96897333496" class="px-4 py-2 bg-al-teal text-white rounded-full font-bold hover:bg-al-green">CALL</a>
-            <a href="https://wa.me/96897333496" class="px-4 py-2 bg-green-500 text-white rounded-full font-bold hover:bg-green-600">WA</a>
-        </div>
-    </div>
-</header>
+    </section>
 
-<!-- HERO -->
-<section class="pt-24 pb-24 text-center">
-    <div class="max-w-4xl mx-auto px-4">
-        <h1 class="font-bold text-4xl md:text-6xl text-al-blue mb-6">Your Trusted Travel Partner</h1>
-        <p class="text-xl text-gray-600 mb-12">Fast visa, flights & tourism services in Muscat</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <a href="tel:+96897333496" class="px-8 py-4 bg-al-blue text-white rounded-2xl font-bold text-lg w-full sm:w-auto">📞 Call +968 9733 3496</a>
-            <a href="#form" class="px-8 py-4 bg-al-teal text-white rounded-2xl font-bold text-lg w-full sm:w-auto">Free Quote</a>
+    <!-- Services Grid -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">Service 1</div>
+            <div class="service-item">Service 2</div>
+            <div class="service-item">Service 3</div>
+            <div class="service-item">Service 4</div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- SERVICES -->
-<section class="py-24 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-        <h2 class="font-bold text-4xl text-al-blue text-center mb-20">Our Services</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="p-8 rounded-3xl bg-al-bg shadow-xl hover:shadow-2xl transition-all">
-                <i class="fas fa-plane text-4xl text-al-blue mb-4 block"></i>
-                <h3 class="font-bold text-2xl mb-4">Flights</h3>
-                <p>Best prices guaranteed</p>
-                <a href="https://wa.me/96897333496" class="mt-6 block w-full bg-al-blue text-white py-3 rounded-xl text-center font-bold">Book Now</a>
-            </div>
-            <div class="p-8 rounded-3xl bg-al-bg shadow-xl hover:shadow-2xl transition-all">
-                <i class="fas fa-passport text-4xl text-al-teal mb-4 block"></i>
-                <h3 class="font-bold text-2xl mb-4">Visa</h3>
-                <p>Fast approval service</p>
-                <a href="https://wa.me/96897333496" class="mt-6 block w-full bg-al-teal text-white py-3 rounded-xl text-center font-bold">Apply</a>
-            </div>
-            <div class="p-8 rounded-3xl bg-al-bg shadow-xl hover:shadow-2xl transition-all">
-                <i class="fas fa-suitcase text-4xl text-al-green mb-4 block"></i>
-                <h3 class="font-bold text-2xl mb-4">Packages</h3>
-                <p>Oman & worldwide</p>
-                <a href="https://wa.me/96897333496" class="mt-6 block w-full bg-al-green text-white py-3 rounded-xl text-center font-bold">Explore</a>
-            </div>
-            <div class="p-8 rounded-3xl bg-al-bg shadow-xl hover:shadow-2xl transition-all">
-                <i class="fas fa-briefcase text-4xl text-al-gold mb-4 block"></i>
-                <h3 class="font-bold text-2xl mb-4">Corporate</h3>
-                <p>Business travel mgmt</p>
-                <a href="https://wa.me/96897333496" class="mt-6 block w-full bg-al-blue text-white py-3 rounded-xl text-center font-bold">Contact</a>
-            </div>
+    <!-- Trust Bar -->
+    <section id="trust">
+        <h2>Trusted by Thousands</h2>
+        <div class="trust-bar">
+            <img src="trust-badge-1.png" alt="Trust Badge 1">
+            <img src="trust-badge-2.png" alt="Trust Badge 2">
+            <img src="trust-badge-3.png" alt="Trust Badge 3">
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- FORM -->
-<section id="form" class="py-24 bg-gradient-to-r from-al-blue to-al-teal text-white">
-    <div class="max-w-md mx-auto px-4 text-center">
-        <h2 class="font-bold text-4xl mb-6">Get Free Quote</h2>
-        <p class="text-xl mb-12 opacity-90">Fast response within 1 hour</p>
-        <form class="space-y-4">
-            <input type="text" placeholder="Full Name" class="w-full p-4 rounded-xl text-lg">
-            <input type="tel" placeholder="Phone/WhatsApp" class="w-full p-4 rounded-xl text-lg">
-            <select class="w-full p-4 rounded-xl text-lg">
-                <option>Flight Booking</option>
-                <option>Visa Assistance</option>
-                <option>Travel Package</option>
-            </select>
-            <button type="submit" class="w-full bg-white text-al-blue py-5 rounded-2xl font-bold text-xl shadow-2xl hover:shadow-3xl transition-all">Send Request</button>
+    <!-- Reviews -->
+    <section id="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews">
+            <blockquote>"Amazing experience!" - Customer A</blockquote>
+            <blockquote>"Will travel again!" - Customer B</blockquote>
+        </div>
+    </section>
+
+    <!-- Call to Action (CTA) Section -->
+    <section id="cta">
+        <h2>Ready to Plan Your Trip?</h2>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
-        <p class="mt-8 text-sm opacity-75">Or call <a href="tel:+96897333496" class="font-bold">+968 9733 3496</a></p>
-    </div>
-</section>
+    </section>
 
-<!-- FOOTER -->
-<footer class="py-12 bg-gray-900 text-white">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-        <div class="font-bold text-2xl mb-4">AL LUMA Travel & Tourism</div>
-        <p class="mb-4">شركة لؤما للسياحة</p>
-        <div class="flex flex-col md:flex-row gap-4 justify-center items-center mb-8 text-lg">
-            <a href="tel:+96897333496" class="flex items-center"><i class="fas fa-phone mr-2"></i>+968 9733 3496</a>
-            <a href="https://wa.me/96897333496" class="flex items-center"><i class="fab fa-whatsapp mr-2 text-al-green"></i>WhatsApp</a>
-        </div>
-        <p>Al Azaiba North, Muscat, Oman | Open until 8 PM</p>
-    </div>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alluma Travel. All Rights Reserved.</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
